@@ -1,7 +1,7 @@
 # discordpy-template
 A minimal template for a Discord.py bot.
 
-# Getting Started
+## Getting Started
 
 To get started with this template, you will have to get your bot [token](https://docs.discordbotstudio.org/setting-up-dbs/finding-your-bot-token).
 
