@@ -20,10 +20,7 @@ class Miscellaneous(commands.Cog):
     async def ping(self, ctx: commands.Context):
         """Get the current latency of the bot."""
         await ctx.channel.send(
-            embed=discord.Embed(
-                title="Pong!",
-                description=f"The current latency of the bot is {round(self.bot.latency * 1000, 1)}ms.",  # pylint: disable=line-too-long
-            )
+            f"The current latency of the bot is {round(self.bot.latency * 1000, 1)}ms."
         )
 
 
